@@ -5,7 +5,7 @@ import 'package:hkk/pages/single_play.dart';
 void main() {
   runApp(MaterialApp(
     routes: {
-      '/': (context) => SinglePlay(),
+      '/': (context) => MainMenu(),
       '/home': (context) => MainMenu(),
       '/singlePlay': (context) => SinglePlay(),
     },

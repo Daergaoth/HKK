@@ -34,8 +34,7 @@ class _MainMenuState extends State<MainMenu> {
           // crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(height: MediaQuery.of(context).size.height * 0.05),
-            Image.network(
-                'https://lh3.googleusercontent.com/proxy/QYCNzAShgk5K4YSuwJDqvIoNfCeKQcDuzqLLtbCC9PE87AnIZgk7TmNMQUgbYiXCJP73LA'),
+            Image.asset('assets/hkk_logo.png'),
             SizedBox(height: MediaQuery.of(context).size.height * 0.05),
             Container(
               width: MediaQuery.of(context).size.width * 0.8,
